@@ -79,10 +79,10 @@ app.use("", (req, res) => {
 });
 
 //errors handler
-app.use((err, req, res, next) => {
-  const status = err.status || 500;
-  const message = err.message || "Internal Server Error!..";
-  return res.status(status).json({ message });
-});
+// app.use((err, req, res, next) => {
+//   const status = err.status || 500;
+//   const message = err.message || "Internal Server Error!..";
+//   return res.status(status).json({ message });
+// });
 //server
 app.listen(port, () => console.log(`Server is running at ${port}`));
