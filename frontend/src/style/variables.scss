@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,600&display=swap');
+
+$bg_color_blue:#84a98c;
+$bg_color_main:#84a98c;
+$color_black:#000;
+$color_white:#FFF;
+//fonts
+$font-Size:(
+    "font_10":10px,
+    "font_11":11px,
+    "font_12":12px,
+    "font_13":13px,
+    "font_14":14px,
+    "font_15":15px,
+    "font_16":16px,
+    "font_17":17px,
+    "font_18":18px,
+    "font_19":19px,
+    "font_20":20px,
+    "font_22":22px,
+);
+
+
+$fontweight:(
+    "thin":100,
+    "extra-light":200,
+    "light":300,
+    "regular":400,
+    "medium":500,
+    "semi-bold":600,
+    "bold":700,
+    "extra-bold":800,
+    "black":800
+);
+
+
+
+@mixin font($size, $weight, $color) {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: map-get($font-Size, $size );
+    color: $color ;
+    font-weight: map-get($fontweight, $weight );
+}

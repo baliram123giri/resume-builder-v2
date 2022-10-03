@@ -1,0 +1,71 @@
+@import "./variables.scss";
+h1,
+h4,
+h6,
+h3,
+h2,
+h5,
+p {
+  padding: 0;
+  margin: 0;
+}
+body {
+  overflow: hidden !important;
+}
+body main {
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  max-height: 90vh;
+}
+.btn-primary,
+.btn:focus,
+.btn:active {
+  background-color: $bg_color_blue !important;
+  border-color: $bg_color_blue !important;
+}
+
+.border-success {
+  border-color: $bg_color_blue !important;
+}
+.text-primary {
+  color: $bg_color_blue !important;
+}
+
+label {
+  color: $bg_color_blue !important;
+  opacity: 0.9;
+}
+.btn,
+.btn:focus,
+.btn:active {
+  font-size: 14px;
+  line-height: 23px;
+  padding: 5px 23px;
+  letter-spacing: 0.4px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.132), 0 1px 3px rgba(0, 0, 0, 0.044) !important;
+}
+
+body {
+  @include font("font_14", "font_16", $color_black);
+}
+
+//common classes
+.cursor-pointer {
+  cursor: pointer;
+}
+.bg-success {
+  background-color: $bg_color_main !important;
+}
+
+///fonts
+
+.fs-8 {
+  font-size: 8px;
+}
+
+.fs-10 {
+  font-size: 10px;
+}
+.fs-12 {
+  font-size: 12px;
+}

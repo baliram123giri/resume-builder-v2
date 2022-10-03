@@ -1,0 +1,9 @@
+@import "../../style/variables.scss";
+.ant-form-item{
+    margin-bottom: 5px;
+}
+.appinput{
+    border: 1px solid $bg_color_main;
+    @include font("font_13", "font_16" ,$color_black);
+    padding: 8px 5px;
+}

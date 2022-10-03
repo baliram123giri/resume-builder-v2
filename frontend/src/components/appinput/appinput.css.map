@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACCA,OAAO,CAAC,kJAAI;ADAZ,AAAA,cAAc,CAAA;EACV,aAAa,EAAE,GAAG;CACrB;;AACD,AAAA,SAAS,CAAA;EACL,MAAM,EAAE,GAAG,CAAC,KAAK,CCDN,OAAO;EAmClB,WAAW,EAAE,uBAAuB;EACpC,SAAS,EA5BC,IAAI;EA6Bd,KAAK,EApCI,IAAI;EDEb,OAAO,EAAE,OAAO;CACnB",
+    "sources": [
+        "appinput.scss",
+        "../../style/variables.scss"
+    ],
+    "names": [],
+    "file": "appinput.css"
+}

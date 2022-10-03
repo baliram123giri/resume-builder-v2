@@ -1,0 +1,29 @@
+.templates {
+  height: "100%";
+}
+.resume-img {
+  height: 400px;
+//   width: 260px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.resume-img .select-button {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.25s ease;
+}
+.resume-img:hover .select-button {
+  opacity: 1;
+}
+.resume-img:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
